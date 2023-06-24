@@ -16,7 +16,7 @@ export const ListItem: React.FC<ListItemProps> = ({ image, name, href }) => {
   };
   return (
     <button
-      onClick={() => {}}
+      onClick={onClick}
       className="
         relative
         group
